@@ -9,11 +9,11 @@
     * `conda create -n seng474 python=3.6`
     * `source activate seng474`
 3. Clone this repository and open the new folder
-    * `git clone https://github.com/ishmeetkohli/SENG474.git`
+    * `git clone https://github.com/fortjohnson/SENG474.git`
     * `cd SENG474`
 4. Start the Notebook
     * `jupyter notebook`
-5. Your web browser should automatically open to the Notebook Home Page
+5. Your web browser should automatically open to the Notebook Home Page 
     * If not, go to [http://localhost:8888/](http://localhost:8888/)
 6. Open a file with the __.ipynb__ extension
 7. Now you can modify the code in the Notebook
