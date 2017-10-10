@@ -1,4 +1,6 @@
 import csv
+import codecs
+
 
 # Our Classes
 classes = ["spam", "ham"]
@@ -6,7 +8,7 @@ classes = ["spam", "ham"]
 def load_spam_data():
 
     # Data File
-    file = "data/spam.csv"
+    file = "data/spam1.csv"
 
     # Lists to store all word frequencies from messages
     # used to find top words for each class
@@ -18,7 +20,7 @@ def load_spam_data():
     y = []
 
     # open the file for processing as a CSV
-    with open(file, 'r') as f:
+    with codecs.open(file, 'r', 'utf8') as f:
         reader = csv.reader(f)
 
         for i, row in enumerate(reader):
